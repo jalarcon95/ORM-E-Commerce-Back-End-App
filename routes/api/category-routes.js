@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Product,
-        atttirbutes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+        attirbutes: ['id', 'product_name', 'price', 'stock', 'category_id'],
       }
     ]
   })
