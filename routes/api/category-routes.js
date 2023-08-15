@@ -30,7 +30,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Products
   Category.findOne({
     where: {
-      id: Request.params.id
+      id: req.params.id
     },
     attributes: [
       'id',
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-    .then(dbCategoryData => res,json(dbCategoryData))
+    .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
