@@ -29,6 +29,7 @@ User must connect to mysql to source the schema file. The user can then return t
 Below is a link to a video demo of this process followed by the testing of 
 API GET, POST, PUT, and DELETE routes in Insomnia:
 
+https://drive.google.com/file/d/1z0QVBSFNfpzSjgpo4zq6DSLEFJ3Ycyj2/view
 
 ## [Credits](#table-of-contents)
 
